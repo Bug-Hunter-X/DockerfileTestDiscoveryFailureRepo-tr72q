@@ -1,0 +1,2 @@
+# Dockerfile Test Execution Bug
+This repository demonstrates a common error in Dockerfiles related to test execution. The initial Dockerfile fails because the `CMD` instruction doesn't properly discover and execute unit tests. The solution provides a corrected Dockerfile.
